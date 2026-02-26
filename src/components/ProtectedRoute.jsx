@@ -19,3 +19,7 @@ function ProtectedRoute({ children }) {
       </motion.div>
     )
   }
+
+  if (!isLoggedIn) {
+    return <Navigate to="/login" replace />
+  }
