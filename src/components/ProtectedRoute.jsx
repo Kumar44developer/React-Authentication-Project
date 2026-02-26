@@ -23,3 +23,6 @@ function ProtectedRoute({ children }) {
   if (!isLoggedIn) {
     return <Navigate to="/login" replace />
   }
+
+  return children
+}
