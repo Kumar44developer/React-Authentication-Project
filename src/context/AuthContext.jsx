@@ -18,3 +18,6 @@ export function AuthProvider({ children }) {
     }
     setLoading(false)
   }, [])            
+
+  const signup = (email, password) => {
+    const users = JSON.parse(localStorage.getItem('users') || '[]')
