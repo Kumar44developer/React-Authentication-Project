@@ -28,3 +28,4 @@ export function AuthProvider({ children }) {
 
     const newUser = { email, password }
     users.push(newUser)
+    localStorage.setItem('users', JSON.stringify(users))
