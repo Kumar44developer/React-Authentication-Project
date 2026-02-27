@@ -16,4 +16,5 @@ export function AuthProvider({ children }) {
       setUserEmail(storedEmail)
       setIsLoggedIn(true)
     }
-            
+    setLoading(false)
+  }, [])            
