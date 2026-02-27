@@ -18,3 +18,7 @@ function PublicRoute({ children }) {
       </motion.div>
     )
   }
+
+  if (isLoggedIn) {
+    return <Navigate to="/dashboard" replace />
+  }
