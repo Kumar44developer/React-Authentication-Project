@@ -31,3 +31,5 @@ export function AuthProvider({ children }) {
     localStorage.setItem('users', JSON.stringify(users))
     localStorage.setItem('userEmail', email)
     localStorage.setItem('isLoggedIn', 'true')
+    return true 
+  }
