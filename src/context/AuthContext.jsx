@@ -21,3 +21,5 @@ export function AuthProvider({ children }) {
 
   const signup = (email, password) => {
     const users = JSON.parse(localStorage.getItem('users') || '[]')
+    const userExists = users.find((u) => u.email === email)
+    if (userExists) {
