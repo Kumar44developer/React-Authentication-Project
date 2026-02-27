@@ -10,3 +10,6 @@ function PublicRoute({ children }) {
     return (
       <motion.div
         initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        className="loading-container"
+      >
