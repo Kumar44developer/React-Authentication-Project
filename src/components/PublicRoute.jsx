@@ -22,3 +22,7 @@ function PublicRoute({ children }) {
   if (isLoggedIn) {
     return <Navigate to="/dashboard" replace />
   }
+
+
+  return children
+}
