@@ -25,3 +25,6 @@ export function AuthProvider({ children }) {
     if (userExists) {
       return false 
     }
+
+    const newUser = { email, password }
+    users.push(newUser)
