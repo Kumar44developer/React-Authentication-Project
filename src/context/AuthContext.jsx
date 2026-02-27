@@ -14,5 +14,6 @@ export function AuthProvider({ children }) {
   
     if (storedEmail && storedLoginState === 'true') {
       setUserEmail(storedEmail)
-
+      setIsLoggedIn(true)
+    }
             
