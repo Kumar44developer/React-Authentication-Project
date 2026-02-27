@@ -5,3 +5,6 @@ export function AuthProvider({ children }) {
   const [userEmail, setUserEmail] = useState(null)
   const [isLoggedIn, setIsLoggedIn] = useState(false)
   const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    const storedEmail = localStorage.getItem('userEmail')
