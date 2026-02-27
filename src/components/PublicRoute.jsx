@@ -15,3 +15,6 @@ function PublicRoute({ children }) {
       >
         <div className="loading-spinner"></div>
         <p>Loading...</p>
+      </motion.div>
+    )
+  }
