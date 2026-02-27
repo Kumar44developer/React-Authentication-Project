@@ -23,3 +23,5 @@ export function AuthProvider({ children }) {
     const users = JSON.parse(localStorage.getItem('users') || '[]')
     const userExists = users.find((u) => u.email === email)
     if (userExists) {
+      return false 
+    }
