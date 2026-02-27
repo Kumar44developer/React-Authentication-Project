@@ -13,3 +13,5 @@ function PublicRoute({ children }) {
         animate={{ opacity: 1 }}
         className="loading-container"
       >
+        <div className="loading-spinner"></div>
+        <p>Loading...</p>
