@@ -5,3 +5,8 @@ import './ProtectedRoute.css'
 
 function PublicRoute({ children }) {
   const { isLoggedIn, loading } = useAuth()
+
+  if (loading) {
+    return (
+      <motion.div
+        initial={{ opacity: 0 }}
