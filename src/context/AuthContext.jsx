@@ -9,3 +9,10 @@ export function AuthProvider({ children }) {
   useEffect(() => {
     const storedEmail = localStorage.getItem('userEmail')
     const storedLoginState = localStorage.getItem('isLoggedIn')
+
+
+  
+    if (storedEmail && storedLoginState === 'true') {
+      setUserEmail(storedEmail)
+
+            
