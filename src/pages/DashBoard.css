@@ -13,3 +13,6 @@
   box-shadow: 0 25px 70px rgba(0, 0, 0, 0.3);
   padding: 4rem 3rem;
   width: 100%;
+  max-width: 550px;
+  text-align: center;
+}
