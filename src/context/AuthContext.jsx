@@ -50,3 +50,5 @@ export function AuthProvider({ children }) {
 
   const logout = () => {
     setUserEmail(null)
+    setIsLoggedIn(false)
+    localStorage.removeItem('userEmail')
