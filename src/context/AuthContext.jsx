@@ -64,3 +64,6 @@ export function AuthProvider({ children }) {
     logout,
     loading,
   }
+
+  return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>
+}
