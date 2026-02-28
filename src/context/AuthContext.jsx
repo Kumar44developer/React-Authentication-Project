@@ -33,3 +33,6 @@ export function AuthProvider({ children }) {
     localStorage.setItem('isLoggedIn', 'true')
     return true 
   }
+
+  const login = (email, password) => {
+    const users = JSON.parse(localStorage.getItem('users') || '[]')
