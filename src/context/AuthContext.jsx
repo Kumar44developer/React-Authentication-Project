@@ -61,3 +61,6 @@ export function AuthProvider({ children }) {
     isLoggedIn,
     signup,
     login,
+    logout,
+    loading,
+  }
