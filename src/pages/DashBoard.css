@@ -30,3 +30,6 @@
   font-weight: 600;
   color: #667eea;
   word-break: break-all;
+  display: inline-block;
+  margin-top: 0.5rem;
+}
