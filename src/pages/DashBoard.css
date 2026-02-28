@@ -28,3 +28,5 @@
 .dashboard-email {
   font-size: 1.875rem;
   font-weight: 600;
+  color: #667eea;
+  word-break: break-all;
