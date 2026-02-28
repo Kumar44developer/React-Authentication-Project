@@ -52,3 +52,5 @@ export function AuthProvider({ children }) {
     setUserEmail(null)
     setIsLoggedIn(false)
     localStorage.removeItem('userEmail')
+    localStorage.removeItem('isLoggedIn')
+  }
