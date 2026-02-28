@@ -41,3 +41,5 @@ export function AuthProvider({ children }) {
     if (user) {
       setUserEmail(email)
       setIsLoggedIn(true)    
+      localStorage.setItem('userEmail', email)
+      localStorage.setItem('isLoggedIn', 'true')
