@@ -47,3 +47,6 @@ export function AuthProvider({ children }) {
     }
     return false
   }
+
+  const logout = () => {
+    setUserEmail(null)
