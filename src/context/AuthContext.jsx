@@ -37,3 +37,7 @@ export function AuthProvider({ children }) {
   const login = (email, password) => {
     const users = JSON.parse(localStorage.getItem('users') || '[]')
     const user = users.find((u) => u.email === email && u.password === password)
+
+    if (user) {
+      setUserEmail(email)
+      setIsLoggedIn(true)    
