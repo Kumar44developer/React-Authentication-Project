@@ -54,3 +54,8 @@ export function AuthProvider({ children }) {
     localStorage.removeItem('userEmail')
     localStorage.removeItem('isLoggedIn')
   }
+
+
+  const value = {
+    userEmail,
+    isLoggedIn,
