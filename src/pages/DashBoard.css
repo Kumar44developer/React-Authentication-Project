@@ -94,3 +94,7 @@
 .dashboard-button-secondary:active {
   transform: translateY(0);
 }
+
+
+@media (min-width: 640px) {
+  .dashboard-buttons {
