@@ -81,3 +81,6 @@
 .dashboard-button-secondary {
   background: white;
   color: #e53e3e;
+  border: 2px solid #e53e3e;
+  box-shadow: 0 2px 8px rgba(229, 62, 62, 0.2);
+}
