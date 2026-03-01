@@ -11,3 +11,7 @@ function Dashboard() {
     logout()
     navigate('/login')
   }
+
+  const handleGoToApp = () => {
+    navigate('/welcome')
+  }
