@@ -78,3 +78,6 @@
   transform: translateY(0);
 }
 
+.dashboard-button-secondary {
+  background: white;
+  color: #e53e3e;
