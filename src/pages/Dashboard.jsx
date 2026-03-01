@@ -15,3 +15,7 @@ function Dashboard() {
   const handleGoToApp = () => {
     navigate('/welcome')
   }
+
+  return (
+    <motion.div
+      initial={{ opacity: 0 }}
