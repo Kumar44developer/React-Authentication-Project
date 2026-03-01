@@ -109,3 +109,5 @@
 
 @media (max-width: 480px) {
   .dashboard-card {
+    padding: 3rem 2rem;
+  }
