@@ -50,3 +50,8 @@
   width: 100%;
   margin-top: 2rem;
 }
+
+.dashboard-button {
+  width: 100%;
+  padding: 1rem 2rem;
+  font-size: 1.0625rem;
