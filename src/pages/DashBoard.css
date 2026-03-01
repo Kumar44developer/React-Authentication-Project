@@ -84,3 +84,6 @@
   border: 2px solid #e53e3e;
   box-shadow: 0 2px 8px rgba(229, 62, 62, 0.2);
 }
+
+.dashboard-button-secondary:hover {
+  background: #fff5f5;
