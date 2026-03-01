@@ -6,3 +6,6 @@ import './Dashboard.css'
 function Dashboard() {
   const { userEmail, logout } = useAuth()
   const navigate = useNavigate()
+
+  const handleLogout = () => {
+    logout()
