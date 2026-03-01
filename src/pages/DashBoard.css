@@ -73,3 +73,8 @@
   transform: translateY(-2px);
   box-shadow: 0 8px 25px rgba(102, 126, 234, 0.5);
 }
+
+.dashboard-button-primary:active {
+  transform: translateY(0);
+}
+
