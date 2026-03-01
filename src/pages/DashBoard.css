@@ -98,3 +98,6 @@
 
 @media (min-width: 640px) {
   .dashboard-buttons {
+    flex-direction: row;
+    gap: 1.25rem;
+  }
