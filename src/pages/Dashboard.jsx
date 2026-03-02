@@ -82,3 +82,5 @@ function Dashboard() {
 
             Logout
           </motion.button>
+        </motion.div>
+      </motion.div>
