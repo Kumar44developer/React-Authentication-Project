@@ -78,3 +78,7 @@ function Dashboard() {
             whileTap={{ scale: 0.98 }}
             className="dashboard-button dashboard-button-secondary"
           >
+
+
+            Logout
+          </motion.button>
