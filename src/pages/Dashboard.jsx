@@ -52,3 +52,5 @@ function Dashboard() {
           }}
           className="dashboard-success"
         >
+          You have successfully logged in!
+        </motion.p>
