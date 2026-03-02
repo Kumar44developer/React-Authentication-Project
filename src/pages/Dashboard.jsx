@@ -61,3 +61,7 @@ function Dashboard() {
           transition={{ delay: 0.6, duration: 0.5 }}
           className="dashboard-buttons"
         >
+
+          <motion.button
+            onClick={handleGoToApp}
+            whileHover={{ scale: 1.05, y: -2 }}
