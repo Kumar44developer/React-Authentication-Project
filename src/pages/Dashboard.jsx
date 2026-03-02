@@ -39,3 +39,5 @@ function Dashboard() {
         >
           <span>Welcome,</span>
           <br />
+          <span className="dashboard-email">{userEmail || 'User'}!</span>
+        </motion.h1>
