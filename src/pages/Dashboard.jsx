@@ -74,3 +74,5 @@ function Dashboard() {
 
           <motion.button
             onClick={handleLogout}
+            whileHover={{ scale: 1.05, y: -2 }}
+            whileTap={{ scale: 0.98 }}
