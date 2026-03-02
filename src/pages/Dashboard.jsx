@@ -44,3 +44,7 @@ function Dashboard() {
         <motion.p
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
+          transition={{ 
+            delay: 0.4, 
+            type: "spring",
+            stiffness: 200,
