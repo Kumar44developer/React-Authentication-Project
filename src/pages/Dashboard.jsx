@@ -76,3 +76,5 @@ function Dashboard() {
             onClick={handleLogout}
             whileHover={{ scale: 1.05, y: -2 }}
             whileTap={{ scale: 0.98 }}
+            className="dashboard-button dashboard-button-secondary"
+          >
