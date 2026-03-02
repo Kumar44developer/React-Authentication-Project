@@ -37,3 +37,5 @@ function Dashboard() {
           transition={{ delay: 0.2, duration: 0.5 }}
           className="dashboard-welcome"
         >
+          <span>Welcome,</span>
+          <br />
