@@ -48,3 +48,7 @@ function Dashboard() {
             delay: 0.4, 
             type: "spring",
             stiffness: 200,
+            damping: 15
+          }}
+          className="dashboard-success"
+        >
