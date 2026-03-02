@@ -71,3 +71,6 @@ function Dashboard() {
 
             Go to App
           </motion.button>
+
+          <motion.button
+            onClick={handleLogout}
