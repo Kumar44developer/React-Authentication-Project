@@ -84,3 +84,8 @@ function Dashboard() {
           </motion.button>
         </motion.div>
       </motion.div>
+    </motion.div>
+  )
+}
+
+export default Dashboard
