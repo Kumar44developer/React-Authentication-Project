@@ -97,3 +97,7 @@
   transform: translateY(-2px);
   box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
 }
+
+.login-button:active {
+  transform: translateY(0);
+}
