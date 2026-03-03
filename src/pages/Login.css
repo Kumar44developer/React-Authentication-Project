@@ -33,3 +33,6 @@
 .error-banner {
   background-color: #fff5f5;
   border: 1px solid #fc8181;
+  color: #e53e3e;
+  padding: 0.875rem 1rem;
+  border-radius: 8px;
