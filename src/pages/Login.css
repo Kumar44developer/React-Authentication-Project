@@ -62,3 +62,6 @@
 .login-form input::placeholder {
   color: #a0aec0;
 }
+
+.login-form input:focus {
+  border-color: #667eea;
