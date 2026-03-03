@@ -29,3 +29,7 @@
   flex-direction: column;
   gap: 1.5rem;
 }
+
+.error-banner {
+  background-color: #fff5f5;
+  border: 1px solid #fc8181;
