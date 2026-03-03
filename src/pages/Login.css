@@ -101,3 +101,7 @@
 .login-button:active {
   transform: translateY(0);
 }
+
+.login-footer {
+  text-align: center;
+  margin-top: 2rem;
