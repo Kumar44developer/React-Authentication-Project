@@ -36,3 +36,6 @@ function Login() {
     }
 
     const isValid = login(email, password)
+
+    if (isValid) {
+      navigate('/dashboard')
