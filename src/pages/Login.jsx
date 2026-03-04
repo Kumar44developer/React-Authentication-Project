@@ -39,3 +39,7 @@ function Login() {
 
     if (isValid) {
       navigate('/dashboard')
+    } else {
+      setError('Invalid email or password')
+    }
+  }
