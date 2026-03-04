@@ -29,3 +29,6 @@ function Login() {
       setError('Please enter a valid email address')
       return
     }
+
+    if (!password) {
+      setError('Password is required')
