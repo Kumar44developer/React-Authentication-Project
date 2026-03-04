@@ -117,3 +117,6 @@
   font-weight: 600;
   transition: color 0.2s;
 }
+
+.login-footer a:hover {
+  color: #764ba2;
