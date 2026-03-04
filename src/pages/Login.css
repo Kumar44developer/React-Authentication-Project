@@ -125,3 +125,5 @@
 
 @media (max-width: 480px) {
   .login-card {
+    padding: 2rem 1.5rem;
+  }
