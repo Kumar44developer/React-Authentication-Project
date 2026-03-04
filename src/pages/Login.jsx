@@ -34,3 +34,5 @@ function Login() {
       setError('Password is required')
       return
     }
+
+    const isValid = login(email, password)
