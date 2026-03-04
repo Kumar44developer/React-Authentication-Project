@@ -22,3 +22,5 @@ function Login() {
 
     if (!email.trim()) {
       setError('Email is required')
+      return
+    }
