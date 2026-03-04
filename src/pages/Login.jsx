@@ -24,3 +24,6 @@ function Login() {
       setError('Email is required')
       return
     }
+
+    if (!validateEmail(email)) {
+      setError('Please enter a valid email address')
