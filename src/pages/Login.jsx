@@ -32,3 +32,5 @@ function Login() {
 
     if (!password) {
       setError('Password is required')
+      return
+    }
