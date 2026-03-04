@@ -19,3 +19,6 @@ function Login() {
   const handleSubmit = (e) => {
     e.preventDefault()
     setError('')
+
+    if (!email.trim()) {
+      setError('Email is required')
