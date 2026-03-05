@@ -85,3 +85,7 @@ function Login() {
               {error}
             </motion.div>
           )}
+
+          <div className="form-group">
+            <input
+              type="email"
