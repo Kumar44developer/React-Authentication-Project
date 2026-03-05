@@ -56,3 +56,6 @@ function Login() {
       <motion.div
         initial={{ scale: 0.95 }}
         animate={{ scale: 1 }}
+        transition={{ delay: 0.1 }}
+        className="login-card"
+      >
