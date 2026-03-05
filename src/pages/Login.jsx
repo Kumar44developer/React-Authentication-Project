@@ -67,3 +67,9 @@ function Login() {
         >
           Welcome Back
         </motion.h1>
+
+        <motion.form
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+        
+        
