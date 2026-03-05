@@ -96,3 +96,5 @@ function Login() {
                 setError('')
               }}
               className={error ? 'input-error' : ''}
+            />
+          </div>
