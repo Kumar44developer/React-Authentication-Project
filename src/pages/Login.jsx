@@ -132,3 +132,9 @@ function Login() {
         >
           Don't have an account? <Link to="/signup">Sign Up</Link>
         </motion.p>
+      </motion.div>
+    </motion.div>
+  )
+}
+
+export default Login
