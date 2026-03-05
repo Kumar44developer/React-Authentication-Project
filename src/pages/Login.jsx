@@ -65,3 +65,5 @@ function Login() {
           transition={{ delay: 0.2 }}
           className="login-title"
         >
+          Welcome Back
+        </motion.h1>
