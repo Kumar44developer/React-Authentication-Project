@@ -82,3 +82,6 @@ function Login() {
               animate={{ opacity: 1, y: 0 }}
               className="error-banner"
             >
+              {error}
+            </motion.div>
+          )}
