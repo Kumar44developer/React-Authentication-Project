@@ -120,3 +120,6 @@ function Login() {
             whileTap={{ scale: 0.98 }}
             className="login-button"
           >
+            Login
+          </motion.button>
+        </motion.form>
