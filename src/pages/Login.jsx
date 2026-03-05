@@ -52,3 +52,7 @@ function Login() {
       transition={{ duration: 0.3 }}
       className="login-container"
     >
+
+      <motion.div
+        initial={{ scale: 0.95 }}
+        animate={{ scale: 1 }}
