@@ -112,3 +112,6 @@ function Login() {
               className={error ? 'input-error' : ''}
             />
           </div>
+
+          <motion.button
+            type="submit"
