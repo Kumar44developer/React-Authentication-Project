@@ -127,3 +127,6 @@ function Login() {
         <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
+          transition={{ delay: 0.4 }}
+          className="login-footer"
+        >
