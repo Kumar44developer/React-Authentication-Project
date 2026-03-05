@@ -107,3 +107,8 @@ function Login() {
               value={password}
               onChange={(e) => {
                 setPassword(e.target.value)
+                setError('')
+              }}
+              className={error ? 'input-error' : ''}
+            />
+          </div>
