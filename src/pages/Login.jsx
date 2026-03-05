@@ -93,3 +93,6 @@ function Login() {
               value={email}
               onChange={(e) => {
                 setEmail(e.target.value)
+                setError('')
+              }}
+              className={error ? 'input-error' : ''}
