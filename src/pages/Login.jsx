@@ -75,3 +75,7 @@ function Login() {
           className="login-form"        
           onSubmit={handleSubmit}
         >        
+
+          {error && (
+            <motion.div
+              initial={{ opacity: 0, y: -10 }}
