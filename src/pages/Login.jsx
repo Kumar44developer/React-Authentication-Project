@@ -98,3 +98,8 @@ function Login() {
               className={error ? 'input-error' : ''}
             />
           </div>
+
+
+          <div className="form-group">
+            <input
+              type="password"
