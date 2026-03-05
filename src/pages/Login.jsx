@@ -89,3 +89,5 @@ function Login() {
           <div className="form-group">
             <input
               type="email"
+              placeholder="Email"
+              value={email}
