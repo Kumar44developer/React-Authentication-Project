@@ -45,3 +45,6 @@
   border-radius: 8px;
   outline: none;
   transition: all 0.2s;
+  background-color: #f7fafc;
+  color: #1a202c;
+}
