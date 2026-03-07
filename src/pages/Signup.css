@@ -111,3 +111,6 @@
   font-weight: 600;
   transition: color 0.2s;
 }
+
+.signup-footer a:hover {
+  color: #764ba2;
