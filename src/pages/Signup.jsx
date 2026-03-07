@@ -42,3 +42,5 @@ function Signup() {
     setErrors(newErrors)
     return Object.keys(newErrors).length === 0
   }
+  const handleSubmit = (e) => {
+    e.preventDefault()
