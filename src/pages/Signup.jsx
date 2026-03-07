@@ -38,3 +38,7 @@ function Signup() {
     } else if (password !== confirmPassword) {
       newErrors.confirmPassword = 'Passwords do not match'
     }
+
+    setErrors(newErrors)
+    return Object.keys(newErrors).length === 0
+  }
