@@ -26,3 +26,6 @@ function Signup() {
     } else if (!validateEmail(email)) {
       newErrors.email = 'Please enter a valid email address'
     }
+
+    if (!password) {
+      newErrors.password = 'Password is required'
