@@ -78,3 +78,6 @@
 .signup-button {
   width: 100%;
   padding: 0.875rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
