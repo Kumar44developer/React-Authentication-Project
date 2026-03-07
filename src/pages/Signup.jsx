@@ -11,3 +11,7 @@ function Signup() {
   const [errors, setErrors] = useState({})
   const { signup } = useAuth()
   const navigate = useNavigate()
+
+
+  const validateEmail = (email) => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
