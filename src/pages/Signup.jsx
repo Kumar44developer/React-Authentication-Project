@@ -44,3 +44,6 @@ function Signup() {
   }
   const handleSubmit = (e) => {
     e.preventDefault()
+
+    if (validateForm()) {
+      const success = signup(email, password)
