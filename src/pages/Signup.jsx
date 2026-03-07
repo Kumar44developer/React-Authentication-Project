@@ -47,3 +47,5 @@ function Signup() {
 
     if (validateForm()) {
       const success = signup(email, password)
+      if (success) {
+        navigate('/login')
