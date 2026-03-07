@@ -23,3 +23,6 @@ function Signup() {
 
     if (!email.trim()) {
       newErrors.email = 'Email is required'
+    } else if (!validateEmail(email)) {
+      newErrors.email = 'Please enter a valid email address'
+    }
