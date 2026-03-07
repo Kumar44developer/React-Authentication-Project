@@ -49,3 +49,8 @@ function Signup() {
       const success = signup(email, password)
       if (success) {
         navigate('/login')
+      } else {
+        setErrors({ email: 'An account with this email already exists' })
+      }
+    }
+  }
