@@ -116,3 +116,6 @@
   color: #764ba2;
   text-decoration: underline;
 }
+
+@media (max-width: 480px) {
+  .signup-card {
