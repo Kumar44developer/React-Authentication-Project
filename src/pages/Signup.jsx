@@ -9,3 +9,5 @@ function Signup() {
   const [password, setPassword] = useState('')
   const [confirmPassword, setConfirmPassword] = useState('')
   const [errors, setErrors] = useState({})
+  const { signup } = useAuth()
+  const navigate = useNavigate()
