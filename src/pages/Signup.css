@@ -121,3 +121,8 @@
   .signup-card {
     padding: 2rem 1.5rem;
   }
+
+  .signup-title {
+    font-size: 1.75rem;
+  }
+}
