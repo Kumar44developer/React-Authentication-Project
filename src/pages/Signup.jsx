@@ -32,3 +32,6 @@ function Signup() {
     } else if (password.length < 6) {
       newErrors.password = 'Password must be at least 6 characters'
     }
+
+    if (!confirmPassword) {
+      newErrors.confirmPassword = 'Please confirm your password'
