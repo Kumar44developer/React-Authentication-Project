@@ -97,3 +97,6 @@
 .signup-button:active {
   transform: translateY(0);
 }
+
+.signup-footer {
+  text-align: center;
