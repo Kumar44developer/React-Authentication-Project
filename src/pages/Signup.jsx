@@ -20,3 +20,6 @@ function Signup() {
 
   const validateForm = () => {
     const newErrors = {}
+
+    if (!email.trim()) {
+      newErrors.email = 'Email is required'
