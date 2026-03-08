@@ -128,3 +128,5 @@ function Signup() {
                   setErrors({ ...errors, confirmPassword: '' })
                 }
               }}
+              className={errors.confirmPassword ? 'input-error' : ''}
+            />
