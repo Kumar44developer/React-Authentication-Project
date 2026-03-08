@@ -93,3 +93,7 @@ function Signup() {
               value={email}
               onChange={(e) => {
                 setEmail(e.target.value)
+                if (errors.email) {
+                  setErrors({ ...errors, email: '' })
+                }
+              }}
