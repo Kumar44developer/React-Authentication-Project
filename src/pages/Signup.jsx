@@ -115,3 +115,5 @@ function Signup() {
               }}
               className={errors.password ? 'input-error' : ''}
             />
+            {errors.password && <span className="error-message">{errors.password}</span>}
+          </div>
