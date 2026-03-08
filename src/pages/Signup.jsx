@@ -63,3 +63,6 @@ function Signup() {
       transition={{ duration: 0.3 }}
       className="signup-container"
     >
+      <motion.div
+        initial={{ scale: 0.95 }}
+        animate={{ scale: 1 }}
