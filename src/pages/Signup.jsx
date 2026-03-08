@@ -85,3 +85,6 @@ function Signup() {
           className="signup-form"
           onSubmit={handleSubmit}
         >
+          <div className="form-group">
+            <input
+              type="email"
