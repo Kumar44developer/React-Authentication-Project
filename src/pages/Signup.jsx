@@ -113,3 +113,5 @@ function Signup() {
                   setErrors({ ...errors, password: '' })
                 }
               }}
+              className={errors.password ? 'input-error' : ''}
+            />
