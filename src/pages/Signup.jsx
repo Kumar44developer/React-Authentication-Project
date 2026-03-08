@@ -75,3 +75,5 @@ function Signup() {
           transition={{ delay: 0.2 }}
           className="signup-title"
         >
+          Create Account
+        </motion.h1>
