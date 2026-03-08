@@ -146,3 +146,7 @@ function Signup() {
             Sign Up
           </motion.button>
         </motion.form>
+
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
