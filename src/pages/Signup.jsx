@@ -72,3 +72,6 @@ function Signup() {
         <motion.h1
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
+          transition={{ delay: 0.2 }}
+          className="signup-title"
+        >
