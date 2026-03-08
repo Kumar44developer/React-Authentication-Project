@@ -117,3 +117,6 @@ function Signup() {
             />
             {errors.password && <span className="error-message">{errors.password}</span>}
           </div>
+          <div className="form-group">
+            <input
+              type="password"
