@@ -142,3 +142,7 @@ function Signup() {
             whileTap={{ scale: 0.98 }}
             className="signup-button"
           >
+
+            Sign Up
+          </motion.button>
+        </motion.form>
