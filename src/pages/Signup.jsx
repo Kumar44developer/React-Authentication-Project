@@ -134,3 +134,7 @@ function Signup() {
               <span className="error-message">{errors.confirmPassword}</span>
             )}
           </div>
+
+
+          <motion.button
+            type="submit"
