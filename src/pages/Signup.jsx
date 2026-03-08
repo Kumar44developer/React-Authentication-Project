@@ -109,3 +109,7 @@ function Signup() {
               value={password}
               onChange={(e) => {
                 setPassword(e.target.value)
+                if (errors.password) {
+                  setErrors({ ...errors, password: '' })
+                }
+              }}
