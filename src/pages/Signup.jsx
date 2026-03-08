@@ -120,3 +120,5 @@ function Signup() {
           <div className="form-group">
             <input
               type="password"
+              placeholder="Confirm Password"
+              value={confirmPassword}
