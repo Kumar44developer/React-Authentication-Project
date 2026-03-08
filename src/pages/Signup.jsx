@@ -97,3 +97,7 @@ function Signup() {
                   setErrors({ ...errors, email: '' })
                 }
               }}
+              className={errors.email ? 'input-error' : ''}
+            />
+            {errors.email && <span className="error-message">{errors.email}</span>}
+          </div>
