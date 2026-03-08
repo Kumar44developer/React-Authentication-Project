@@ -122,3 +122,9 @@ function Signup() {
               type="password"
               placeholder="Confirm Password"
               value={confirmPassword}
+              onChange={(e) => {
+                setConfirmPassword(e.target.value)
+                if (errors.confirmPassword) {
+                  setErrors({ ...errors, confirmPassword: '' })
+                }
+              }}
