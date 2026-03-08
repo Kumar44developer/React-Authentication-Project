@@ -77,3 +77,7 @@ function Signup() {
         >
           Create Account
         </motion.h1>
+
+        <motion.form
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
