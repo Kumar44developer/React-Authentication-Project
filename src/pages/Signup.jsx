@@ -90,3 +90,6 @@ function Signup() {
               type="email"
               placeholder="Email"
               value={email}
+              value={email}
+              onChange={(e) => {
+                setEmail(e.target.value)
