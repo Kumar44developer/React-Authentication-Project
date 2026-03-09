@@ -165,3 +165,7 @@ function Signup() {
         >
           Already have an account? <Link to="/login">Login</Link>
         </motion.p>
+      </motion.div>
+    </motion.div>
+  )
+}
