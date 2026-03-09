@@ -16,3 +16,7 @@
   max-width: 500px;
   text-align: center;
 }
+
+.welcome-title {
+  font-size: 3rem;
+  font-weight: 800;
