@@ -153,3 +153,6 @@ function Signup() {
           transition={{ delay: 0.4 }}
           className="signup-footer"
         >
+            Sign Up
+          </motion.button>
+        </motion.form>
