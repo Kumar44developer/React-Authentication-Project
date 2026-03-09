@@ -163,3 +163,5 @@ function Signup() {
           transition={{ delay: 0.4 }}
           className="signup-footer"
         >
+          Already have an account? <Link to="/login">Login</Link>
+        </motion.p>
