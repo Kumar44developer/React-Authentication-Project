@@ -169,3 +169,5 @@ function Signup() {
     </motion.div>
   )
 }
+
+export default Signup
