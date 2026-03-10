@@ -16,3 +16,6 @@ function Welcome() {
       <motion.div
         initial={{ scale: 0.95, y: 20 }}
         animate={{ scale: 1, y: 0 }}
+        transition={{ delay: 0.2, duration: 0.5 }}
+        className="welcome-card"
+      >
