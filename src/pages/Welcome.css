@@ -80,3 +80,6 @@
   background: #f7fafc;
   box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
 }
+
+@media (min-width: 640px) {
+  .welcome-buttons {
