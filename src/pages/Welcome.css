@@ -83,3 +83,6 @@
 
 @media (min-width: 640px) {
   .welcome-buttons {
+    flex-direction: row;
+    gap: 1.25rem;
+  }
