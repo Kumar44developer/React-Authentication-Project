@@ -34,3 +34,7 @@ function Welcome() {
           transition={{ delay: 0.4 }}
           className="welcome-description"
         >
+
+          Secure authentication and user management made simple. 
+          Get started by creating an account or signing in to your existing one.
+        </motion.p>
