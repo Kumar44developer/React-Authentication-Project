@@ -45,3 +45,7 @@ function Welcome() {
           transition={{ delay: 0.5 }}
           className="welcome-buttons"
         >
+
+          <motion.button
+            onClick={() => navigate('/signup')}
+            whileHover={{ scale: 1.05, y: -2 }}
