@@ -25,3 +25,5 @@ function Welcome() {
           transition={{ delay: 0.3 }}
           className="welcome-title"
         >
+          Auth Dashboard
+        </motion.h1>
