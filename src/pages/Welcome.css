@@ -95,3 +95,5 @@
 
 @media (max-width: 480px) {
   .welcome-card {
+    padding: 3rem 2rem;
+  }
