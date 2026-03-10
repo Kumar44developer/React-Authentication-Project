@@ -13,3 +13,6 @@ function Welcome() {
       transition={{ duration: 0.5 }}
       className="welcome-container"
     >
+      <motion.div
+        initial={{ scale: 0.95, y: 20 }}
+        animate={{ scale: 1, y: 0 }}
