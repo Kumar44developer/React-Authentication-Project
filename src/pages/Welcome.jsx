@@ -38,3 +38,7 @@ function Welcome() {
           Secure authentication and user management made simple. 
           Get started by creating an account or signing in to your existing one.
         </motion.p>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
