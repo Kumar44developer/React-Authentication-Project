@@ -52,3 +52,5 @@ function Welcome() {
             whileTap={{ scale: 0.98 }}
             className="welcome-button welcome-button-primary"
           >
+            Sign Up
+          </motion.button>
