@@ -64,3 +64,7 @@ function Welcome() {
             Login
           </motion.button>
         </motion.div>
+      </motion.div>
+    </motion.div>
+  )
+}
