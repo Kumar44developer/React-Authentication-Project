@@ -68,3 +68,4 @@ function Welcome() {
     </motion.div>
   )
 }
+export default Welcome
