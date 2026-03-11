@@ -54,3 +54,7 @@ function Welcome() {
           >
             Sign Up
           </motion.button>
+
+          <motion.button
+            onClick={() => navigate('/login')}
+            whileHover={{ scale: 1.05, y: -2 }}
