@@ -68,3 +68,8 @@
   outline: none;
   transition: border-color 0.2s;
 }
+
+.auth-form input:focus {
+  border-color: #646cff;
+}
+
