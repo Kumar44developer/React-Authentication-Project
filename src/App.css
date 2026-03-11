@@ -48,3 +48,7 @@
 .page-container button:hover {
   background-color: #535bf2;
 }
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
