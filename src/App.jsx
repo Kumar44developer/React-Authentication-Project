@@ -40,3 +40,8 @@ function App() {
         />
         <Route path="*" element={<Welcome />} />
       </Routes>
+    </AuthProvider>
+  )
+}
+
+export default App
