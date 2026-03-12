@@ -38,3 +38,5 @@ function App() {
             </ProtectedRoute>
           }
         />
+        <Route path="*" element={<Welcome />} />
+      </Routes>
