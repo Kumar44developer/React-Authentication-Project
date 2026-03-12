@@ -30,3 +30,5 @@ function App() {
             </PublicRoute>
           }
         />
+        <Route
+          path="/dashboard"
