@@ -11,3 +11,6 @@ import './App.css'
 function App() {
   return (
     <AuthProvider>
+      <Routes>
+        <Route path="/" element={<Welcome />} />
+        <Route path="/welcome" element={<Welcome />} />
