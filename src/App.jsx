@@ -14,3 +14,5 @@ function App() {
       <Routes>
         <Route path="/" element={<Welcome />} />
         <Route path="/welcome" element={<Welcome />} />
+        <Route
+          path="/signup"
