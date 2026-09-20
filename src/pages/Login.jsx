@@ -115,7 +115,6 @@ function Login() {
 
           <motion.button
             type="submit"
-            type="submit"
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
             className="login-button"

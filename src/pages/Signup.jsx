@@ -12,7 +12,6 @@ function Signup() {
   const { signup } = useAuth()
   const navigate = useNavigate()
 
-
   const validateEmail = (email) => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
     return emailRegex.test(email)
@@ -42,6 +41,7 @@ function Signup() {
     setErrors(newErrors)
     return Object.keys(newErrors).length === 0
   }
+
   const handleSubmit = (e) => {
     e.preventDefault()
 
@@ -90,7 +90,6 @@ function Signup() {
               type="email"
               placeholder="Email"
               value={email}
-              value={email}
               onChange={(e) => {
                 setEmail(e.target.value)
                 if (errors.email) {
@@ -117,6 +116,7 @@ function Signup() {
             />
             {errors.password && <span className="error-message">{errors.password}</span>}
           </div>
+
           <div className="form-group">
             <input
               type="password"
@@ -135,24 +135,12 @@ function Signup() {
             )}
           </div>
 
-
           <motion.button
             type="submit"
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
             className="signup-button"
           >
-
-            Sign Up
-          </motion.button>
-        </motion.form>
-
-        <motion.p
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.4 }}
-          className="signup-footer"
-        >
             Sign Up
           </motion.button>
         </motion.form>
