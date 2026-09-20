@@ -66,36 +66,36 @@ The app uses `localStorage` for user persistence, making it fully self-contained
 ```
 React-Authentication-Project/
 │
-├── index.html                          # HTML entry point
-├── package.json                        # Dependencies and scripts
-├── vite.config.js                      # Vite configuration
-├── eslint.config.js                    # ESLint rules
+├── index.html                          
+├── package.json                       
+├── vite.config.js                  
+├── eslint.config.js                    
 ├── .gitignore
 │
-├── public/                             # Static assets
+├── public/                           
 │
 └── src/
-    ├── main.jsx                        # App bootstrap with BrowserRouter
-    ├── App.jsx                         # Route definitions with auth guards
-    ├── App.css                         # Global component styles
-    ├── index.css                       # Base CSS reset
+    ├── main.jsx                        
+    ├── App.jsx                     
+    ├── App.css                       
+    ├── index.css                      
     │
     ├── context/
-    │   └── AuthContext.jsx             # Auth provider with signup/login/logout
+    │   └── AuthContext.jsx          
     │
     ├── components/
-    │   ├── ProtectedRoute.jsx          # Redirects unauthenticated users to /login
-    │   ├── PublicRoute.jsx             # Redirects authenticated users to /dashboard
-    │   └── ProtectedRoute.css          # Loading spinner styles
+    │   ├── ProtectedRoute.jsx         
+    │   ├── PublicRoute.jsx             
+    │   └── ProtectedRoute.css          
     │
     └── pages/
-        ├── Welcome.jsx                 # Landing page with Sign Up / Login buttons
+        ├── Welcome.jsx                
         ├── Welcome.css
-        ├── Signup.jsx                  # Registration form with validation
+        ├── Signup.jsx                  
         ├── Signup.css
-        ├── Login.jsx                   # Login form with error handling
+        ├── Login.jsx                  
         ├── Login.css
-        ├── Dashboard.jsx               # Protected dashboard with user info
+        ├── Dashboard.jsx              
         └── DashBoard.css
 ```
 
